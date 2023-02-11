@@ -7,6 +7,7 @@
 name: Lint Code Base
 
 # *** NOTE: only on push! ***
+=======
 #############################
 # Start the job on all push #
 #############################
@@ -16,6 +17,8 @@ on:
     # Remove the line above to run when pushing to master
   # pull_request:
   #  branches: [master, main]
+  pull_request:
+    branches: [master, main]
 
 ###############
 # Set the Job #
